@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id = "@+id/singleLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="horizontal"
+    tools:context=".MyActivity$PlaceholderFragment">
+
+    <TextView
+        android:id = "@+id/friendTextView1"
+        android:text="hello_world"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#33b5e5"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id = "@+id/friendTextView2"
+        android:text="hello_world"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#33b5e5"
+        android:layout_weight="1"/>
+
+</LinearLayout>
