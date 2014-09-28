@@ -26,7 +26,7 @@ public class ArticleFragment extends DialogFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_dialog, container,false);
         nameTextView = (TextView)view.findViewById(R.id.lbl_your_name);
-        int a=111111;
+        int a=222222;
         mEditText = (EditText) view.findViewById(R.id.txt_your_name);
         nameTextView.setText("FriendUin: "+String.valueOf(position));
         return view;
