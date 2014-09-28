@@ -4,5 +4,6 @@
     <string name="app_name">FriendListTest</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="fragment_total_dummy_button">dummy_button</string>
 
 </resources>
